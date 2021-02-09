@@ -1,6 +1,66 @@
+body {
+    margin: 0;
+    padding-top: 0;
+    background-color: #fff;
+    font-family: 'Oxygen', sans-serif;
+}
+
+body, button, input, select, textarea {
+    color: #606060;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: inherit;
+}
+
 #header {
+    position: relative;
     background-color: white;
     height: 90px;
+}
+
+.site-branding {
+    margin-bottom: 20px;
+}
+
+.site-branding > h1 {
+    text-transform: uppercase;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: 25px;
+}
+
+.site-branding a {
+    color: #000;
+}
+
+.main-menu {
+    padding: 0;
+    max-width: 15px 0px;
+    height: 60px;
+    border-bottom: none;
+    float: left;
+}
+
+.main-menu ul {
+    list-style: none;
+    font-weight: 400;
 }
 
 #img-carousel {

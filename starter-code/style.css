@@ -1,0 +1,29 @@
+#header {
+    background-color: white;
+    height: 90px;
+}
+
+#img-carousel {
+    background-color: black;
+    height: 550px;
+}
+
+#widgets {
+    background-color: red;
+    height: 314px;
+}
+
+#content {
+    background-color: white;
+    height: 1221px;
+}
+
+#bottom {
+    background-color: black;
+    height: 351px;
+}
+
+#footer {
+    background-color: gray;
+    height: 78px;
+}
